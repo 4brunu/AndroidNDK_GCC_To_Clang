@@ -2,7 +2,20 @@
 
 This project show's the error I'm getting while migrating from GCC to Clang.
 
+####GCC  Works.
+```
+ndk {
+    toolchain = "gcc"
+    toolchainVersion = "4.9"
+}
+```
+####Clang - Error.
 ````
+ndk {
+    toolchain = "clang"
+}
+```
+```
 /Applications/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/atomicity.h
 Error:(53) undefined reference to '__atomic_fetch_add_4'
 Error:(49) undefined reference to '__atomic_fetch_add_4'
