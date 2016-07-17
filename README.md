@@ -1,5 +1,7 @@
 # AndroidNDK_GCC_To_Clang
 
+#### Fixed - https://github.com/4brunu/AndroidNDK_GCC_To_Clang/commit/850755243902f24cb56342742a6d1d2be11b07d6
+
 This project show's the error I'm getting while migrating from GCC to Clang.
 
 ####GCC  Works.
